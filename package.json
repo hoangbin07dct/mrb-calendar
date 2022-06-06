@@ -1,0 +1,37 @@
+{
+  "name": "@type/mrb-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w --progress --env development",
+    "build": "webpack --progress --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangbin07dct/mrb-calendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "calendar",
+    "js"
+  ],
+  "author": "MRB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangbin07dct/mrb-calendar/issues"
+  },
+  "homepage": "https://github.com/hoangbin07dct/mrb-calendar#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "path": "^0.12.7",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
