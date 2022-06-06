@@ -1,5 +1,6 @@
+import CalendarUI from "./CalendarUI";
 
-class Calendar {
+export default class MrbCal {
   private el: HTMLElement[];
   constructor(el: string | HTMLElement[]) {
     console.log(el);
@@ -11,8 +12,7 @@ class Calendar {
       this.el = el
     }
     console.log(this.el);
-    
+    new CalendarUI()
   }
 }
 
-export default Calendar

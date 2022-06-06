@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -w --progress --env development",
-    "build": "webpack --progress --env production"
+    "build": "webpack --progress --env production",
+    "build:lib": "webpack --progress --env lib production"
   },
   "repository": {
     "type": "git",
