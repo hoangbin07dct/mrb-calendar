@@ -1,5 +1,5 @@
-import {Calendar}  from '../dist/mrb-calendar';
+import MrbCal  from '../dist/mrb-calendar';
 
 window.addEventListener('load', () => {
-  new Calendar('.calendar')
+  new MrbCal('.calendar')
 })
